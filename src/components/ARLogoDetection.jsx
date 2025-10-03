@@ -5,7 +5,7 @@ import { RekognitionClient, DetectCustomLabelsCommand } from '@aws-sdk/client-re
 const CONFIG = {
   AWS: {
     REGION: 'us-east-1',
-    MODEL_ARN: 'arn:aws:rekognition:us-east-1:339712848072:project/FMFLogo/version/FMFLogo.2025-09-24T16.07.58/1758751678692',
+    MODEL_ARN: 'arn:aws:rekognition:us-east-1:YOUR-ACCOUNT:project/YourProject/version/YourVersion/YOUR-VERSION-ID',
   },
   CAMERA: {
     WIDTH: 640,

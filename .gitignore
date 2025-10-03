@@ -26,6 +26,7 @@ amplify-gradle-config.json
 amplifytools.xcconfig
 
 # Amplify backend
+amplify/
 #amplify-do-not-edit-begin
 amplify/\#current-cloud-backend
 amplify/.config/local-*
@@ -37,6 +38,10 @@ amplify/backend/.temp
 .secret-*
 **.sample
 #amplify-do-not-edit-end
+
+# Amazon Q CLI
+.amazonq/cli-todo-lists
+context.json
 
 # System files
 .DS_Store

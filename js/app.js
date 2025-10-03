@@ -2,7 +2,7 @@
 import { RekognitionService } from './rekognition.js';
 
 // Main Application Controller
-class FMFLogoApp {
+class LogoApp {
     constructor() {
         this.camera = new CameraManager();
         this.smartDetection = new SmartDetection();
@@ -350,7 +350,7 @@ class FMFLogoApp {
 document.addEventListener('DOMContentLoaded', async () => {
     try {
         // Create global app instance
-        window.app = new FMFLogoApp();
+        window.app = new LogoApp();
         
         // Initialize the app
         await window.app.initialize();
